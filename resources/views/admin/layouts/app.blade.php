@@ -26,7 +26,9 @@
                 @include('admin.layouts.navbar')
 
                 <div class="content-wrapper">
-                    @yield('content')
+                    <div class="container-xxl flex-grwo-1 container-p-y">
+                        @yield('content')
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,7 +1,6 @@
 @extends('admin.layouts.app')
 
 @section('content')
-<div class="container-xxl flex-grwo-1 container-p-y">
     <div class="d-flex">
         <div class="card" style="width: 18rem; margin-right: 10px;">
             <div class="card-body">
@@ -27,6 +26,4 @@
             </div>
         </div>
     </div>
-
-</div>
 @endsection

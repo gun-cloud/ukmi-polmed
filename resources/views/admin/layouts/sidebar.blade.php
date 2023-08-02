@@ -17,7 +17,7 @@
     <ul class="menu-inner py-1">
 
         <li class="menu-item active">
-            <a href="index.html" class="menu-link">
+            <a href="{{route('dashboard')}}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 Dashboard
             </a>
@@ -28,69 +28,52 @@
         </li>
 
         <li class="menu-item">
-            <a href="index.html" class="menu-link">
+            <a href="{{route('data-pendaftar')}}" class="menu-link">
                 <i class="menu-icon tf-icons bx bxs-user-rectangle"></i>
                 Data Pendaftar
-            </a>
-        </li>
-
-        <li class="menu-item">
-            <a href="index.html" class="menu-link">
-                <i class="menu-icon tf-icons bx bxs-user"></i>
-                Data Anggota
-            </a>
-        </li>
-
-        <li class="menu-item">
-            <a href="index.html" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-user"></i>
-                Data Murabbi
-            </a>
-        </li>
-
-        <li class="menu-item">
-            <a href="index.html" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-group"></i>
-                Data Mentoring
-            </a>
-        </li>
-
-
-        {{-- akhwat --}}
-        <li class="menu-header small text-uppercase">
-            <span class="menu-header-text">Data Akhwat</span>
-        </li>
-
-        <li class="menu-item">
-            <a href="index.html" class="menu-link">
-                <i class="menu-icon tf-icons bx bxs-user-rectangle"></i>
-                Data Pendaftar
-            </a>
-        </li>
-
-        <li class="menu-item">
-            <a href="index.html" class="menu-link">
-                <i class="menu-icon tf-icons bx bxs-user"></i>
-                Data Anggota
-            </a>
-        </li>
-
-        <li class="menu-item">
-            <a href="index.html" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-user"></i>
-                Data Murabbi
-            </a>
-        </li>
-
-        <li class="menu-item">
-            <a href="index.html" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-group"></i>
-                Data Mentoring
             </a>
         </li>
 
         <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-user"></i>
+                Anggota Ikhwan
+            </a>
+
+            <ul class="menu-sub">
+                <li class="menu-item">
+                    <a href="layouts-without-menu.html" class="menu-link">
+                        Data Mentoring
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="layouts-without-menu.html" class="menu-link">
+                        Data Anggota
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="layouts-without-menu.html" class="menu-link">
+                        Data Murabbi
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        {{-- akhwat --}}
+        <li class="menu-header small text-uppercase">
+            <span class="menu-header-text">Data Ahkwat</span>
+        </li>
+
+        <li class="menu-item">
+            <a href="/data-pendaftar" class="menu-link">
+                <i class="menu-icon tf-icons bx bxs-user-rectangle"></i>
+                Data Pendaftar
+            </a>
+        </li>
+
+        <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-user"></i>
                 Anggota Ikhwan
             </a>
 
